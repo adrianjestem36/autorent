@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title> AutoRent - Wynajem samochodów </title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="index.html">Strona Główna </a></li>
+                <li><a href="car.html">Samochody i cennik </a></li>
+                <li><a href="booking.html">Rezerwuj Auto</a></li>
+                <li><a href="offer.html">Opinie klientów</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="contact-form">
+        <form method="post" name="contactform">
+            <div class="row">
+                <div class="col-20">
+                    <label for="fname">Imie: </label>
+                </div>
+                <div class="col-80">
+                    <input type="text" id="fname" name="firstname" placeholder="Twoje imie: ">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-20">
+                    <label for="lname">Nazwisko: </label>
+                </div>
+                <div class="col-80">
+                    <input type="text" id="lname" name="lastname" placeholder="Twoje nazwisko: ">
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-20">
+                    <label for="email">E-mail: </label>
+                </div>
+                <div class="col-80">
+                    <input type="email" id="email" name="email" placeholder="Twój e-mail:">
+                </div>
+            </div>   
+            <div class="row">
+                <div class="col-20">
+                    <label for="telephone">Telefon: </label>
+                </div>
+                <div class="col-80">
+                    <input type="text" id="telephone" name="telephone" placeholder="Twój numer telefonu: ">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-20">
+                    <label for="car">Samochód: </label>
+                </div>
+                <div class="col-80">
+                    <input type="text" id="car" name="job" placeholder="Napisz model samochodu: ">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-20">
+                    <label for="subject">Informacje: </label>
+                </div>
+                <div class="col-80">
+                    <textarea id="subject" name="info" placeholder="Napisz informację dokładnie w którym miejscu samochód ma być przygotowany oraz DATĘ WYPOŻYCZENIA)..." style="height:100px"></textarea>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+            <input type="submit" name="submit" value="Wyślij" onclick="wykonaj()">
+        </div>
+        </form>
+    </div>
+
+
+        <div class="footer">
+
+            <div class="footer_text">
+                <img src="img/phone.png" alt="phone" />
+                <p> Zadzwoń +48 692 312 321</p>
+            </div>
+
+            <div class="footer_text">
+                <img src="img/pin.png" alt="pin" />
+                <p> Al. Krakowska 51/212 Gdańsk</p>
+            </div>
+
+            <div class="footer_text">
+                <img src="img/mail.png" alt="mail" />
+                <p> autorent@gmail.com </p>
+            </div>
+
+        </div>
+
+
+</body>
+
+</html>
